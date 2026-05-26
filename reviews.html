@@ -1,87 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Отзывы</title>
+
     <link rel="stylesheet" href="./style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
 
 </head>
+
 <body class="reviews-page">
+
+    <!-- НАВИГАЦИЯ -->
+
     <header>
+
         <nav class="navbar">
+
             <div class="logo">
                 FILMS
             </div>
+
             <ul class="nav-links">
-                <li><a href="./index.html">Главная</a></li>
-                <li><a href="./movies.html">Фильмы</a></li>
-                <li><a href="./reviews.html">Отзывы</a></li>
-                <li><a href="./top.html">Топ</a></li>
+
+                <li><a href="index.html">Главная</a></li>
+
+                <li><a href="movies.html">Фильмы</a></li>
+
+                <li><a href="reviews.html">Отзывы</a></li>
+
+                <li><a href="top.html">Топ</a></li>
 
             </ul>
+
         </nav>
+
     </header>
-    <main class="reviews-hero">
-        <div class="hero-overlay"></div>
+
+    <!-- ГЛАВНЫЙ БЛОК -->
+
+    <section class="reviews-hero">
+
         <div class="reviews-content">
+
             <h1>ОТЗЫВЫ</h1>
+
             <p>
                 Фильмы, которые остаются в памяти навсегда
             </p>
+
         </div>
-    </main>
+
+    </section>
+
+    <!-- ОТЗЫВЫ -->
+
     <section class="reviews-section">
-        <div class="reviews-card">
+
+        <!-- АВАТАР -->
+
+        <div class="review-card">
+
             <h2>АВАТАР</h2>
+
             <div class="stars">
                 ★★★★★
             </div>
+
             <p>
-                "Невероятно красивый фильм.
-                 Мир Пандоры выглядин живым,
-                 а атмосфера полностью погружает
-                 в историю."
+                «Невероятно красивый фильм.
+                Мир Пандоры выглядит живым,
+                а атмосфера полностью погружает
+                в историю.»
             </p>
+
             <span>
-                - Анна
+                — Анна
             </span>
+
         </div>
-        <div class="reviews-card">
+
+        <!-- НАЧАЛО -->
+
+        <div class="review-card">
+
             <h2>НАЧАЛО</h2>
+
             <div class="stars">
                 ★★★★★
             </div>
+
             <p>
-                "Один из самых умных и атмосферных
-                фильмов, которые я видел. 
+                «Один из самых умных и атмосферных
+                фильмов, которые я видел.
                 После просмотра ещё долго думаешь
-                о сюжете."
+                о сюжете.»
             </p>
+
             <span>
-                - Максим
+                — Максим
             </span>
-            </div>
-            <div class="reviews-card">
+
+        </div>
+
+        <!-- ГОЛОДНЫЕ ИГРЫ -->
+
+        <div class="review-card">
+
             <h2>ГОЛОДНЫЕ ИГРЫ</h2>
+
             <div class="stars">
                 ★★★★☆
             </div>
+
             <p>
-                "Очень эмоциональная история
+                «Очень эмоциональная история
                 с сильными персонажами
-                и напряжённой атмосферой."
+                и напряжённой атмосферой.»
             </p>
+
             <span>
-                - София
+                — София
             </span>
-            </div>
+
+        </div>
 
     </section>
-</body>
-    
+
+    <!-- ФОРМА -->
+
+    <section class="form-section">
+
+        <h2>ОСТАВИТЬ ОТЗЫВ</h2>
+
+        <form class="review-form">
+
+            <input type="text" placeholder="Ваше имя">
+
+            <textarea placeholder="Ваш отзыв"></textarea>
+
+            <button type="submit">
+                Отправить
+            </button>
+
+        </form>
+
+    </section>
+
 </body>
 </html>
